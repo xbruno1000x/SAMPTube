@@ -153,7 +153,8 @@ Contribuições são bem-vindas! Por favor:
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto é licenciado sob a [Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/legalcode.pt).
+
 
 ## 👤 Autor
 

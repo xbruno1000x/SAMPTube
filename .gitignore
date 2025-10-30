@@ -1,0 +1,93 @@
+# SAMPTube - Global .gitignore
+
+# ===== Laravel API =====
+samptube-laravel/vendor/
+samptube-laravel/node_modules/
+samptube-laravel/.env
+samptube-laravel/.env.backup
+samptube-laravel/.phpunit.result.cache
+samptube-laravel/Homestead.json
+samptube-laravel/Homestead.yaml
+samptube-laravel/npm-debug.log
+samptube-laravel/yarn-error.log
+samptube-laravel/.DS_Store
+samptube-laravel/storage/*.key
+samptube-laravel/.idea
+samptube-laravel/.vscode
+
+# Audio files (converted MP3s)
+samptube-laravel/storage/app/public/audio/*.mp3
+
+# Keep .gitkeep files
+!samptube-laravel/storage/app/public/audio/.gitkeep
+
+# Binaries -UsuĂˇrios devem baixar separadamente
+samptube-laravel/bin/yt-dlp.exe
+samptube-laravel/bin/ffmpeg.exe
+samptube-laravel/bin/ffprobe.exe
+
+# ===== PAWN Library =====
+samptube-pawn/.vscode/
+samptube-pawn/dependencies/
+samptube-pawn/gamemodes/*.amx
+samptube-pawn/gamemodes/*.pwn
+!samptube-pawn/exemplo.pwn
+samptube-pawn/pawno/
+samptube-pawn/plugins/
+samptube-pawn/scriptfiles/
+samptube-pawn/server.cfg
+samptube-pawn/samp-server.exe
+samptube-pawn/samp-npc.exe
+samptube-pawn/announce.exe
+samptube-pawn/*.so
+samptube-pawn/*.dll
+samptube-pawn/server_log.txt
+
+# ===== OS Specific =====
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===== IDEs =====
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains (PHPStorm, WebStorm, etc)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===== Other =====
+*.log
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+.env.local
+.env.*.local
